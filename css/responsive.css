@@ -1,0 +1,126 @@
+@media (max-width: 1200px) {
+    .burger-menu{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1140px) {
+    .container {
+        width: 95%;
+
+    }
+    .burger-menu{
+        display: none;
+    }
+}
+@media (max-width:991px){
+    .menu {
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+
+
+    .packet {
+        margin-left: 0;
+    }
+
+    .menu {
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        left: 0;
+        z-index: 2;
+        background: black;
+    }
+
+    .menu li {
+        background: #212121;
+        padding: 17px 32px;
+        margin: 0;
+        display: block;
+    }
+
+    .right-menu li:last-child {
+        padding-bottom: 27px;
+    }
+
+    .menu li a {
+        color: #fff;
+    }
+
+    .right-menu {
+        top: 250px;
+
+    }
+
+.footer-box{
+    text-align: center;
+}
+
+    #select-goods:before {
+        content: '';
+        position: absolute;
+        height: 249px;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: #f9f6f1;
+        z-index: -1;
+    }
+    #select-goods:after {
+        content: '';
+        position: absolute;
+        height: 500px;
+        width: 100%;
+        right: 0;
+        top: 0;
+        background: #f4f4f4;
+        z-index: -2;
+    }
+    .goods-item{
+        display: flex;
+        justify-content: center;
+    }
+    .inf h1 {
+        font-size: 52px;
+
+    }
+    .inf h4 {
+        font-size: 30px;
+        line-height: 30px;}
+    .inf{
+        text-align: center;
+    }
+    .gift-form form {
+        justify-content: space-evenly;
+        padding: 20px;
+}
+
+}
+@media (max-width:543px){
+    .gift-form .form-input {
+        margin: 23px;
+}
+.gender-type h2{
+    font-size: 19px;
+}
+.gender-type h4{
+    line-height: 24px;
+}
+.gender-type{
+    padding: 0;
+}
+.inf h1{
+    font-size: 30px;
+}
+    .inf h4{
+        font-size: 24px;
+    }
+.logo h1{
+    font-size: 17px;
+}
+}
