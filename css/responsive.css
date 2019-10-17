@@ -1,9 +1,3 @@
-@media (max-width: 1920px) {
-    .burger-menu {
-        display: none;
-    }
-}
-
 
 @media screen and (max-width: 1140px) {
     .container {
