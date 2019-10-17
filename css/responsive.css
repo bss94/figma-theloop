@@ -1,9 +1,8 @@
-@media (max-width: 1200px) {
-    .burger-menu{
+@media (max-width: 1920px) {
+    .burger-menu {
         display: none;
     }
 }
-
 
 
 @media screen and (max-width: 1140px) {
@@ -11,16 +10,19 @@
         width: 95%;
 
     }
-    .burger-menu{
+
+    .burger-menu {
         display: none;
     }
 }
-@media (max-width:991px){
+
+@media (max-width: 991px) {
     .menu {
         display: none;
     }
-    .burger-menu{
-        display: block;
+
+    .burger-menu {
+        display: flex;
     }
 
 
@@ -57,9 +59,9 @@
 
     }
 
-.footer-box{
-    text-align: center;
-}
+    footer {
+        text-align: center;
+    }
 
     #select-goods:before {
         content: '';
@@ -71,6 +73,7 @@
         background: #f9f6f1;
         z-index: -1;
     }
+
     #select-goods:after {
         content: '';
         position: absolute;
@@ -81,46 +84,59 @@
         background: #f4f4f4;
         z-index: -2;
     }
-    .goods-item{
+
+    .goods-item {
         display: flex;
         justify-content: center;
     }
+
     .inf h1 {
         font-size: 52px;
 
     }
+
     .inf h4 {
         font-size: 30px;
-        line-height: 30px;}
-    .inf{
+        line-height: 30px;
+    }
+
+    .inf {
         text-align: center;
     }
+
     .gift-form form {
         justify-content: space-evenly;
         padding: 20px;
-}
+    }
 
 }
-@media (max-width:543px){
+
+@media (max-width: 543px) {
     .gift-form .form-input {
         margin: 23px;
-}
-.gender-type h2{
-    font-size: 19px;
-}
-.gender-type h4{
-    line-height: 24px;
-}
-.gender-type{
-    padding: 0;
-}
-.inf h1{
-    font-size: 30px;
-}
-    .inf h4{
+    }
+
+    .gender-type h2 {
+        font-size: 19px;
+    }
+
+    .gender-type h4 {
+        line-height: 24px;
+    }
+
+    .gender-type {
+        padding: 0;
+    }
+
+    .inf h1 {
+        font-size: 30px;
+    }
+
+    .inf h4 {
         font-size: 24px;
     }
-.logo h1{
-    font-size: 17px;
-}
+
+    .logo h1 {
+        font-size: 17px;
+    }
 }
